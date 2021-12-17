@@ -5,3 +5,6 @@ Desenvolvimento de uma aplicação simples de agenda com Django.
 
 Link de acesso ao código rodando:
 https://tep-agenda.herokuapp.com/
+
+Login: admin
+Senha: admin
