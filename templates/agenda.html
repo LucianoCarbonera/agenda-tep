@@ -2,7 +2,7 @@
 
 {% block content %}
         <a href="{% url 'eventos' %}">
-        <button type="button">Novo Agendamento</button>
+        <button style="background-color:blue" type="button">Novo Agendamento</button>
         </a>
         <ul style="font-size: 18px">
         {% for evento in eventos %}
@@ -18,6 +18,6 @@
         {% endfor %}
         </ul>
         <a href="{% url 'lista_eventos_todos' %}">
-            <button type="button">Ver Todos</button>
+            <button style="background-color:steelblue" type="button">Ver Todos</button>
         </a>
 {% endblock %}
